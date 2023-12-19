@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Page</title>
+
+    <!--bootstrap CDN link -->
+    <link rel="stylesheet" href="
+        https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css
+        ">
+
+    <!-- google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- bootstrap icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <!-- aos animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- swiper CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <!-- custom styles -->
+    <link rel="stylesheet" href="CSS/style.css">
+    
+</head>
+<body>
+    <header class="fixed-top">
+        <h1>Welcome to My Portfolio</h1>
+        <p class="fs-5">Web Developer</p>
+    </header>
+
+    <!-- hero section -->
+ <main id="#hero" class="hero py-5"> 
+    <div class="container-fluid py-5">
+        <div class="row py-5">
+            <div class="col-sm-6 mb-3 mb-sm-0">
+                <div class="text-card py-5 d-flex justify-content-center align-items-center ">
+                  <div class="card-body py-5">                    
+                    <h1 class="display-2 fw-bolder big-text">I'm Mercy<br/> Abirhire</h1>
+                    <p class="card-title fs-3 pt-5">As a passionate Web Developer</p>
+                    <p class="card-title fs-3">I love creating beautiful and functional websites.</p>
+                    <h5 class="card-text fs-1"></h5>
+                    <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                    <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="image-card">
+                  <div class="card-body">
+                    <!-- Slider main container -->
+<div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide">
+        <img src="./IMG/Capture.JPG - Shortcut.lnk" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="./IMG/Capture2.JPG - Shortcut.lnk" alt="">
+      </div>
+      <div class="swiper-slide">Slide 3</div>
+      ...
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+    <!-- If we need scrollbar -->
+    <div class="swiper-scrollbar"></div>
+  </div>
+                </div>
+              </div>
+        </div>
+        
+    </div>
+ </main>  
+ 
+    <!-- project section -->
+<section class="projects">
+    <div class="row g-5">
+        <div class="col-md-6 col-lg-3 col-12">
+          <div class="card ms-2 shadow py-3 text-start card-zoom border border-danger">
+          <div class="card-body">
+            <h5 class="card-title fs-2 text-center">Project 1</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+          </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 col-12">
+          <div class="card mx-auto shadow py-5 text-start card-zoom border border-danger">
+          <div class="card-body">
+            <h5 class="card-title">Project 2</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+          </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 col-12">
+          <div class="card mx-auto shadow py-5 text-start card-zoom border border-danger ">
+          <div class="card-body">
+            <h5 class="card-title">Project 3</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+          </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 col-12">
+          <div class="card me-2 shadow py-5 text-start card-zoom border border-danger ">
+          <div class="card-body">
+            <h5 class="card-title">Project 4</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+          </div>
+          </div>
+        </div>
+    </div>  
+    
+</section> 
+
+<!-- contact section -->
+<section class="my-5">
+    <div class="p-3 shadow py-3 mb-5 border border-danger">
+        <h2>Contact Me</h2>
+        <p>Email: mabirhire@yahoo.com</p>
+        <p>Phone: 0802 345 2050</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/mercy-abirhire-62402890">LinkedIn Profile</a></p>
+        <p>twitter: <a href="https://www.linkedin.com/">Twitter Profile</a></p>
+    </div>
+</section>
+
+<!-- footer section -->
+<footer class="mt-5">
+    <p>&copy; 2023 All rights reserved | My Portfolio made by MercyAbi</p>
+</footer> 
+
+     <!-- swiper script -->
+     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+     <!-- bootsrap script -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+     <!-- Aos script -->
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+     <script>
+         AOS.init();
+     </script>
+ 
+</body>
+</html>
