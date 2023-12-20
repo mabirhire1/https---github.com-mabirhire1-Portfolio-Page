@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Urbanist', sans-serif;
+}
+
+/* Nav styling */
+.active {
+    transition: all ease-in-out 0.5s;
+}
+
+.nav-transition {
+    transition: all ease-in-out 0.5s;
+} 
+
+.nav-link {
+    transition: border-bottom 0.4s all ease-in-out;
+    border-bottom: 2px solid transparent !important;
+    padding-bottom: 2px !important
+} 
+
+.nav-link:hover, 
+.nav-link:active {
+    border-bottom-color: rgb(89, 89, 241) !important;
+    color: rgb(31, 141, 238) !important;
+    transition: border-bottom 0.5s all ease-in-out !important;
+} 
+
+.nav-link:hover {
+border-bottom-width: 5% !important; 
+}
+
+.dropdown-menu {
+    border-color: rgb(89, 89, 241) !important;
+    color: rgb(31, 141, 238) !important;
+}
+
+.dropdown-item { 
+    border-color: rgb(89, 89, 241) !important;
+    color: rgb(31, 141, 238) !important;
+}
+
+
