@@ -13,8 +13,8 @@ header {
 }
 
 .swiper {
-    width: 600px;
-    height: 400px;
+    width: 100%;
+    height: auto;
 }
 
 .card {
